@@ -67,7 +67,7 @@ class _EditingProfileScreenState extends State<EditingProfileScreen> {
     Navigator.pop(context, {
       'name': _nameController.text,
       'location': _locationController.text,
-      'avatar': avatar != null ? avatar!.path : null, // Pass avatar path, not the box
+      'avatar': avatar != null ? avatar!.path : null, 
     });
   }
 
